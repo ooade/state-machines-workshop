@@ -1,0 +1,24 @@
+{
+  "name": "state-machines-workshop",
+  "version": "1.0.0",
+  "description": "Hi there!",
+  "main": "index.js",
+  "dependencies": {
+    "xstate": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "scripts": {
+    "carpark": "babel-node sections/**/carpark/index.js",
+    "flashlight": "babel-node sections/**/flashlight/index.js",
+    "regex": "babel-node sections/**/regex/index.js",
+    "trafficlight": "babel-node sections/**/trafficlight/index.js",
+    "auth": "babel-node sections/**/auth/index.js"
+  },
+  "keywords": [],
+  "author": "Ademola Adegbuyi<ooade96@gmail.com>",
+  "license": "ISC"
+}
